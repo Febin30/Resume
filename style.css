@@ -1,0 +1,425 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.section-padding
+{
+    padding: 100px 0;
+}
+.section-header
+{
+    padding-bottom: 30px;
+}
+.navbar-brand
+{
+    color:#fff !important;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.nav-area
+{
+    background: #262626;
+}
+.navbar-nav .nav-link
+{
+    padding-right: 0;
+    padding-left: 0;
+    color: #fff !important;
+    font-weight: bold;
+}
+.nav-item
+{
+    color:#fff;
+    padding: 0 10px;
+    text-transform: uppercase;
+    
+}
+
+
+
+.slider-text h1
+{
+    color:white;
+    position: absolute;
+    justify-content: center;
+    margin-top: 20%;
+    left: 40%;
+    font-size: 50px;
+}
+
+.slider-text h2
+{
+    color:white;
+    position: absolute;
+    justify-content: center;
+    margin-top:25%;
+    left: 40%;
+    font-size: 20px;
+}
+
+
+.scrolldown
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #ccc;
+    
+    transform:rotate(45deg); 
+}
+.scrolldown span
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    animation: animate 1.5s linear infinite;
+
+}
+.scrolldown span:nth-child(1)
+{
+    top:-30px;
+    left: -30px;
+    animation-delay: 0s;
+}
+.scrolldown span:nth-child(2)
+{
+    top:--15px;
+    left: -15px;
+    animation-delay: 0.2s;
+}
+.scrolldown span:nth-child(3)
+{
+    top:0px;
+    left:0px;
+    animation-delay: 0.4s;
+}
+
+@keyframes animate
+{
+    0%
+    {
+border-color: #fff;
+        transform:translate(0,0);
+    }
+    20%
+    {
+     
+border-color: #fff;
+        transform:translate(15px,15px);
+        
+    }
+    200.1%,100%
+    {
+border-color: #222;
+        transform:translate(0,0);
+    }
+}
+
+/*----Animation effects---*/
+.animation-area
+{
+    background: linear-gradient(to left, #8942a8, #ba382f);
+    width:100%;
+    height: 100vh;
+}
+
+.box-area
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.box-area li
+{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background: rgba(255,255,255,0.2);
+    animation: animate 20s linear infinite;
+    bottom: -150px;
+}
+.box-area li:nth-child(1)
+{
+    left: 86%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+.box-area li:nth-child(2)
+{
+    left: 12%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 1.5s;
+    animation-duration: 10s;
+}
+.box-area li:nth-child(3)
+{
+    left: 70%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 5.5s;
+}
+.box-area li:nth-child(4)
+{
+    left: 70%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 15s;
+}
+.box-area li:nth-child(5)
+{
+    left: 65%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+   
+}
+.box-area li:nth-child(6)
+{
+    left: 15%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3.5s;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100%
+    {
+        transform: translateY(-800px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+
+/*************resume part1**************/
+.about
+{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.item-text
+{
+        padding-left: 15px;
+}
+.about-img
+{
+    padding-right: 15px;
+}
+.item-text h3
+{
+    margin-bottom: 30px;
+}
+
+.skills img
+{
+    height:60px;
+    width:60px;
+}
+.aboutme img
+{
+     height:60px;
+    width:60px;
+}
+
+
+/*******resume part2********/
+
+.leader img
+{
+    height:60px;
+    width: 60px;
+    margin-top: 23px;
+}
+.timeline-area
+{
+    margin: 20px auto;
+    width: 360px;
+    border-left: 2px solid #ccc;
+    padding: 0 20px 0 30px;
+    margin-left: 10px;
+}
+.a 
+{
+    background-color: #fff;
+    padding: 10px 25px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    line-height: 1.7;
+    position: relative;
+    height: 110px;
+    margin-bottom: 20px;
+}
+.b
+{
+    background-color: #fff;
+    padding: 10px 25px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    line-height: 1.7;
+    position: relative;
+    height: 110px;
+    margin-bottom: 20px;
+}
+.c
+{
+    background-color: #fff;
+    padding: 10px 25px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    line-height: 1.7;
+    position: relative;
+    height: 110px;
+    margin-bottom: 20px;
+}
+.a :before                                
+{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 10px;
+    left: -37px;
+}
+.b :before
+{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 10px;
+    left: -37px;
+}
+.c :before
+{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 10px;
+    left: -37px;
+}
+.a :after
+{
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color:transparent #ddd transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    left: -17px;
+    top: 10px;
+}
+
+.b :after
+{
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color:transparent #ddd transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    left: -17px;
+    top: 10px;
+}
+.c :after
+{
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color:transparent #ddd transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    left: -17px;
+    top: 10px;
+}
+.a h10
+{
+    margin: 0;
+    text-transform: uppercase;
+    font-family: merienda;
+}
+.a h11
+{
+    margin: 0;
+    font-family: poppins;
+}
+.a h12
+{
+    margin: 0;
+    font-family: poppins;
+}
+.b h10
+{
+    margin: 0;
+    text-transform: uppercase;
+    font-family: merienda;
+}
+.b h11
+{
+    margin: 0;
+    font-family: poppins;
+}
+.b h12
+{
+    margin: 0;
+    font-family: poppins;
+}
+.c h10
+{
+    margin: 0;
+    text-transform: uppercase;
+    font-family: merienda;
+}
+.c h11
+{
+    margin: 0;
+    font-family: poppins;
+}
+.c h12
+{
+    margin: 0;
+    font-family: poppins;
+}
+
+/********resume part3************/
